@@ -1,0 +1,679 @@
+/*
+font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
+*/
+body{
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+}
+a {
+    color: inherit;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/*==============Header==============*/
+
+.header {
+    background-color: #000000;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 50;
+}
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+}
+.nav__menu {
+}
+.menu__list {
+}
+.menu__list_item {
+    display: inline-block;
+    padding: 33px 28px 31px 28px;
+    color: #fff;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+}
+.menu__list_item:hover {
+    background: #EC7979;
+    transition: all 0.9s ease;
+}
+.menu__list_item:active {
+    background: #AB4949;
+}
+.menu__list_item_link {
+}
+
+/*==============Main==============*/
+
+.main {
+    background: url(../img/bg.jpg) 0 0/100% 100% no-repeat;
+
+}
+.main__inner {
+    display: flex;
+    justify-content: space-between;  
+    padding: 207px 0 183px;
+}
+.main__content {
+    color: #fff;
+}
+.logo {
+}
+h1 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    text-transform: uppercase;
+    max-width: 670px;
+    margin-bottom: 97px;
+    margin-top: 50px;
+    position: relative;
+}
+h1::after {
+    content: '';
+    position: absolute;
+    width: 170px;
+    height: 1px;
+    background: #FFFFFF;
+    left: 0;
+    top: 223px;
+}
+.main__text {
+    max-width: 270px;
+    margin-bottom: 42px;
+}
+.btn {
+    font-family: 'Open Sans', sans-serif;
+    display: block;
+    width: 270px;
+    border: 2px solid #FFFFFF;
+    padding: 21px 0;
+    text-align: center;
+}
+
+.btn:hover {
+    border: 2px solid #EC7979;
+    color: #EC7979;
+}
+.btn:active {
+    background: #AB4949;
+    border: 2px solid #AB4949;
+    color: #fff;
+}
+.main__form {
+}
+.main__form_card {
+    font-family: 'Open Sans', sans-serif;
+    width: 470px;
+    height: 450px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.form_card_content{
+    padding-top: 37px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.form_card__title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 73px;
+}
+span {
+    color: #EC7979;
+}
+.form {
+    margin-bottom: 75px;
+
+}
+.input__inner {
+    width: 340px;
+    height: 38px;
+    margin-bottom: 33px;   
+}
+input {
+    width: 340px;
+    height: 38px;
+    border-bottom: 1px solid #BDBDBD;
+    font-size: 18px;
+}
+::placeholder {
+    font-size: 14px;
+    line-height: 19px;
+    color: #BDBDBD;
+
+}
+.input__inner:nth-child(3) {
+    margin-bottom: 0;
+}
+.form__btn {
+    font-family: 'Open Sans', sans-serif;
+    width: 100%;
+    height: 60px;
+    background: #EC7979;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    color: #fff;
+    text-transform: capitalize;
+    border-radius: 0 0 10px 10px;
+}
+.form__btn:hover {
+    background: #AB4949;
+}
+.form__btn:active {
+    box-shadow: inset 0px 0px 10px #AB4949;
+    background: #EC7979;
+}
+
+/*==============Social media==============*/
+
+.section__social {
+    background: #F8EFEF;
+    padding: 14px 18px;
+}
+.social__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.social__text {
+    max-width: 470px;
+    color: #86878B;
+}
+.media__title {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    text-transform: capitalize;
+    color: #333333;
+    margin-bottom: 31px;
+}
+.social__img {
+}
+.social__list li {
+    display: inline-block;
+    margin-right: 21px;
+}
+.social__list li:last-child {
+    margin-right: 0;
+}
+.social__list_item {
+
+}
+
+/*===========Tabs==========*/ 
+
+.section__tabs {
+    margin-top: 99px;
+    margin-bottom: 50px;
+
+}
+.tabs__wrapper {
+}
+.list__group {
+    margin-bottom: 15px;
+    
+    
+}
+.list-group-item  {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    display: inline;
+    text-transform: uppercase;
+    padding: 14px 85px;
+    cursor: pointer;
+  
+
+}
+
+.active {
+    border: 1px solid #C6CBCD;
+    border-radius: 5px 5px 0 0;
+    border-bottom: 1px solid #fff;
+   
+}
+
+.card {
+    margin-top: -1px;
+    border: 1px solid #C6CBCD;
+    display: flex;
+    justify-content: space-between;
+    height: 500px;
+    transition: all cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+.card__info {
+    padding-right: 30px;
+    padding-bottom: 54px;
+    padding-left: 100px;
+}
+.tabs__title {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 41px;
+    margin-bottom: 60px;
+    margin-top: 60px;
+}
+.tabs__text {
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    max-width: 570px;
+    margin-bottom: 20px;
+}
+.btn__wrapper {
+    margin-top: 50px;
+    
+}
+.tab__btn {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    line-height: 25px;
+    padding: 15px 90px;
+    color: #fff;
+    background: #EC7979;
+}
+
+
+.tab__btn:hover {
+    background: #AB4949;
+}
+.tab__btn:active {
+    background: #EC7979;
+    box-shadow: inset 0px 0px 10px #AB4949;
+
+}
+
+
+.hidden {
+    display: none;
+}
+
+
+
+/*===========Benefits==========*/ 
+
+.section__benefits {
+    padding: 50px 0 58px;
+    text-align: center;
+}
+
+.title {
+    font-family: 'Raleway'sans-serif; 
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+    text-transform: uppercase;
+    position: relative;
+    padding: 62px 0;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.title::after {
+    content: '';
+    position: absolute;
+    width: 170px;
+    height: 1px;
+    background: #EC7979;
+    left: 500px;
+    bottom: 0;
+}
+.text {
+    font-family: 'Raleway';
+    color: #86878B;
+    margin-bottom: 71px;
+    text-align: center;
+}
+.benefits__card-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.benefit__card {
+    width: 370px;
+    height: 383px;
+    
+}
+.benefit__card_img {
+    display: block;
+    margin: 0 auto;
+}
+.card__title {
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    text-transform: capitalize;
+    color: #000000;
+    text-align: center;
+    padding: 42px 0 41px;
+}
+.card__text {
+    font-family: 'Raleway';
+    text-align: center;
+    color: #000000;
+    
+}
+
+
+/*===========Benefits==========*/ 
+
+.section__benefits {
+    padding: 50px 0 58px;
+    text-align: center;
+}
+
+.title {
+    font-family: 'Raleway'sans-serif; 
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+    text-transform: uppercase;
+    position: relative;
+    padding: 62px 0;
+    margin-bottom: 40px;
+}
+.title::after {
+    content: '';
+    position: absolute;
+    width: 170px;
+    height: 1px;
+    background: #EC7979;
+    left: 500px;
+    bottom: 0;
+}
+.text {
+    font-family: 'Raleway';
+    color: #86878B;
+    margin-bottom: 71px;
+}
+.benefits__card-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.benefit__card {
+    width: 370px;
+    height: 383px;
+    
+}
+.benefit__card_img {
+    display: block;
+    margin: 0 auto;
+}
+.card__title {
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    text-transform: capitalize;
+    color: #000000;
+    text-align: center;
+    padding: 42px 0 41px;
+}
+.card__text {
+    font-family: 'Raleway';
+    text-align: center;
+    color: #000000;
+    
+}
+.width {
+    
+}
+
+/*===========pricing options ==========*/ 
+
+.section__options {
+    background: #F5F5F5;  
+}
+
+.options__wrapper {
+    padding: 100px 0;
+    text-align: center;
+}
+
+.options__card_wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.option__card {
+    width: 370px;
+    height: 510px;
+    text-align: center;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+.option__card:hover {
+   /*box-shadow: (0px 4px 20px rgba(51, 51, 51, 0.2));*/
+   filter: drop-shadow(0px 4px 10px rgba(51, 51, 51, 0.2));
+   
+   transform: translate(0px, -20px);
+}
+.option__card__list {
+    font-family: 'Raleway';
+font-style: normal;
+}
+.option__card__list_item {
+    color: #86878B;
+    padding: 15px 0;
+    background: #FFFFFF;
+    border: 1px solid #F5F5F5;
+}
+.option__card__list_item:nth-child(1) {
+    background: #333333;
+    border: 1px solid #F5F5F5;
+    padding: 21px 0 20px;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.option__card__list_item:nth-child(2) {
+    background: #333333;
+    border: 1px solid #F5F5F5;
+    padding: 33px 0 32px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    color: #fff;
+}
+
+.option__card__list_item:nth-child(3) {
+    background: #333333;
+    border: 1px solid #F5F5F5;
+    padding: 15px 0;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+/*=============Section reviews==================*/
+
+.section__reviews {
+}
+.reviews__inner {
+}
+.title {
+}
+.text {
+}
+.reviews__card_inner {
+    display: flex;
+    justify-content: space-between;
+}
+.reviews__card {
+    max-width: 370px;
+    margin-bottom: 64px;
+}
+.reviews__card_text {
+    max-width: 370px;
+    max-height: 180px;
+    background: #E2E2E2;
+    border-radius: 10px;
+    padding: 38px 24px;
+    text-align: center;
+    color: #86878B;
+}
+.box__polygine {
+    margin-left: 70px;
+    margin-bottom: 46px;
+}
+.reviews__card_person_info {
+    display: flex;
+    
+}
+.reviews__card_person {
+   margin-left: 30px;
+    
+}
+.person__img {
+    height: 70px;
+    width: 70px;
+    
+}
+.person__title {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    text-transform: capitalize;
+    color: #000000;
+    margin-bottom: 25px;
+}
+.person__work {
+
+}
+
+/*=============Section banner==================*/
+
+.section__banner {
+    padding: 50px 0;
+    background: url(../img/banner\ bg.jpg) 0 0/100% 100% no-repeat;
+}
+.banner__inner {
+    text-align: center;
+}
+.white {
+    color: #fff;
+}
+.white::after {
+    content: '';
+    background: #fff;
+}
+.title {
+}
+.text {
+}
+.btn {
+    
+}
+.btn__banner {
+    width: 370px;
+    color: #fff;
+    text-transform: capitalize; 
+    margin: 0 auto;  
+}
+
+
+/*=============Section contact==================*/
+
+.section__contact {
+    margin: 50px 0;
+}
+.contact__inner {
+    text-align: center;
+}
+.title {
+}
+.text {
+}
+.conatct__form_inner {
+    display: flex;
+    justify-content: space-between;
+}
+.conatct__form {
+}
+.contact__form_input {
+    margin-bottom: 33px;
+}
+.contact__input {
+    width: 571px;
+    border-bottom: 1px solid #BDBDBD;
+    font-size: 18px;
+}
+.contact__message {
+}
+textarea {
+    font-size: 18px;
+    padding-top: 10px;
+}
+.contact__btn {
+    width: 370px;
+    text-align: center;
+    padding: 21px 0;
+    color: #fff;
+    background: #EC7979;
+    text-transform: capitalize;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+}
+.contact__btn:hover {
+    background: #AB4949;
+}
+.contact__btn:active {
+    background: #EC7979;
+    box-shadow: inset 0px 0px 10px #AB4949;
+}
+
+/*=============Footer==================*/
+
+footer {    
+    background: #000000;
+}
+.footer__content {
+   text-align: center;
+   padding: 35px 0 27px;
+}
+.footer__link {
+    margin-right: 32px;
+}
+.footer__link_wrapper {
+    margin-bottom: 28px;
+}
+.link__img {
+}
+.footer__text {
+    color: rgba(255, 255, 255, 0.5);
+
+}
