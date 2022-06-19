@@ -621,6 +621,7 @@ font-style: normal;
     justify-content: space-between;
 }
 .conatct__form {
+    
 }
 .contact__form_input {
     margin-bottom: 33px;
@@ -637,6 +638,7 @@ textarea {
     padding-top: 10px;
 }
 .contact__btn {
+    margin-top: 17px;
     width: 370px;
     text-align: center;
     padding: 21px 0;
