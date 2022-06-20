@@ -61,13 +61,29 @@ a {
 /*==============Main==============*/
 
 .main {
-    background: url(../img/bg.jpg) 0 0/100% 100% no-repeat;
+    background: url(../img/mainbg.jpg) 50% 50% no-repeat;
+    background-position: cover;
+    position: relative;
 
 }
+.main::before {  /*Подложка фона для картинки*/
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 5;
+}
 .main__inner {
+    position: relative;
     display: flex;
     justify-content: space-between;  
     padding: 207px 0 183px;
+    height: 100vh;
+    z-index: 10;
+    margin: auto;
 }
 .main__content {
     color: #fff;
@@ -225,9 +241,7 @@ input {
 /*===========Tabs==========*/ 
 
 .section__tabs {
-    margin-top: 99px;
-    margin-bottom: 50px;
-
+    padding: 100px 0 50px;
 }
 .tabs__wrapper {
 }
@@ -245,18 +259,15 @@ input {
     display: inline;
     text-transform: uppercase;
     padding: 14px 85px;
+    margin-bottom: 40px;
     cursor: pointer;
-  
-
 }
 
 .active {
     border: 1px solid #C6CBCD;
     border-radius: 5px 5px 0 0;
     border-bottom: 1px solid #fff;
-   
 }
-
 .card {
     margin-top: -1px;
     border: 1px solid #C6CBCD;
@@ -317,73 +328,7 @@ input {
 
 
 
-/*===========Benefits==========*/ 
-
-.section__benefits {
-    padding: 50px 0 58px;
-    text-align: center;
-}
-
-.title {
-    font-family: 'Raleway'sans-serif; 
-    font-style: normal;
-    font-weight: 400;
-    font-size: 36px;
-    line-height: 42px;
-    color: #000000;
-    text-transform: uppercase;
-    position: relative;
-    padding: 62px 0;
-    text-align: center;
-}
-.title::after {
-    content: '';
-    position: absolute;
-    width: 170px;
-    height: 1px;
-    background: #EC7979;
-    left: 50%;
-    bottom: 0;
-    transform: translate(-50%, -50%);
-}
-.text {
-    font-family: 'Raleway';
-    color: #86878B;
-    margin-bottom: 71px;
-    text-align: center;
-}
-.benefits__card-wrapper {
-    display: flex;
-    justify-content: space-between;
-}
-.benefit__card {
-    width: 370px;
-    height: 383px;
-    
-}
-.benefit__card_img {
-    display: block;
-    margin: 0 auto;
-}
-.card__title {
-    font-family: 'Open Sans';
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 33px;
-    text-transform: capitalize;
-    color: #000000;
-    text-align: center;
-    padding: 42px 0 41px;
-}
-.card__text {
-    font-family: 'Raleway';
-    text-align: center;
-    color: #000000;
-    
-}
-
-
-/*===========Benefits==========*/ 
+/*===========Benefits Awesome==========*/ 
 
 .section__benefits {
     padding: 50px 0 58px;
@@ -401,6 +346,7 @@ input {
     position: relative;
     padding: 62px 0;
     margin-bottom: 40px;
+    text-align: center;
 }
 .title::after {
     content: '';
@@ -416,6 +362,7 @@ input {
     font-family: 'Raleway';
     color: #86878B;
     margin-bottom: 71px;
+    text-align: center;
 }
 .benefits__card-wrapper {
     display: flex;
@@ -446,13 +393,11 @@ input {
     color: #000000;
     
 }
-.width {
-    
-}
 
 /*===========pricing options ==========*/ 
 
 .section__options {
+
     background: #F5F5F5;  
 }
 
@@ -520,6 +465,7 @@ font-style: normal;
 /*=============Section reviews==================*/
 
 .section__reviews {
+    padding: 50px 0;
 }
 .reviews__inner {
 }
