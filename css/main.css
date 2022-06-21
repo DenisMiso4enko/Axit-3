@@ -589,6 +589,8 @@ font-style: normal;
 textarea {
     font-size: 18px;
     padding-top: 10px;
+    resize: none;
+    border-bottom: 1px solid #BDBDBD;
 }
 .contact__btn {
     margin-top: 17px;
@@ -626,7 +628,9 @@ footer {
 .footer__link_wrapper {
     margin-bottom: 28px;
 }
-.link__img {
+.link__img:hover {
+    color: #AB4949;
+
 }
 .footer__text {
     color: rgba(255, 255, 255, 0.5);
