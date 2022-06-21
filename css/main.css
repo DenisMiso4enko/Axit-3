@@ -414,11 +414,11 @@ input {
 
 .options__card_wrapper {
     display: flex;
+    flex: 1 1 250px;
     justify-content: space-between;
 }
 .option__card {
-    width: 370px;
-    height: 510px;
+    width: 32%;
     text-align: center;
     transition: 0.5s ease;
     cursor: pointer;
