@@ -35,18 +35,24 @@ a {
 .logo {
 }
 .nav__menu {
+    flex: 1 1 auto;
+}
+.menu {
+    display: flex;
+    justify-content: flex-end;
 }
 .menu__list {
+    
 }
 .menu__list_item {
     display: inline-block;
-    padding: 33px 28px 31px 28px;
     color: #fff;
     text-transform: capitalize;
     color: #FFFFFF;
     font-weight: 600;
     font-size: 14px;
-    line-height: 19px;
+    line-height: 0.7;
+    padding: 33px 28px 31px 28px;
 }
 .menu__list_item:hover {
     background: #EC7979;
@@ -61,7 +67,7 @@ a {
 /*==============Main==============*/
 
 .main {
-    background: url(../img/mainbg.jpg) 50% 50% no-repeat;
+    background: url(../img/mainbg.jpg) 0/100% 100% no-repeat;
     background-position: cover;
     position: relative;
 
@@ -79,9 +85,9 @@ a {
 .main__inner {
     position: relative;
     display: flex;
-    justify-content: space-between;  
+    justify-content: space-between; 
     padding: 207px 0 183px;
-    height: 100vh;
+    /*height: 100vh;*/
     z-index: 10;
     margin: auto;
 }
