@@ -688,11 +688,14 @@ footer {
 .footer__link_wrapper {
     margin-bottom: 28px;
 }
-.link__img:hover {
-    color: #AB4949;
-
+svg path:hover {
+    fill: white;
+    box-shadow: 0 0 15px white;
+    transition: all 0.3s;
 }
 .footer__text {
     color: rgba(255, 255, 255, 0.5);
 
 }
+
+
