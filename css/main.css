@@ -94,7 +94,7 @@ a {
     .menu__list {
         position: fixed;
         left: -100%;
-        top: 75px;
+        top: 71px;
         gap: 0;
         flex-direction: column;
         background-color: black;
