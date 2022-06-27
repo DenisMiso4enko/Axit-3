@@ -211,6 +211,7 @@ h1::after {
     height: 450px;
     background-color: #fff;
     border-radius: 10px;
+    overflow: hidden;
 }
 .form_card_content{
     /* padding-top: 37px;
@@ -271,7 +272,6 @@ input {
     line-height: 20px;
     color: #fff;
     text-transform: capitalize;
-    border-radius: 0 0 10px 10px;
 }
 .form__btn:hover {
     background: #AB4949;
