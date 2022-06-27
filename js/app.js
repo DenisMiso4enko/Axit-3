@@ -32,15 +32,19 @@ tabHeaders.forEach(function(item) {
     })
 })
 
+// Секциям скрол по id  href=#fff  section id=fff
+
 /* ------------Скрол к секции по сылке----------- */
-document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+/* document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function(e) {
         e.preventDefault()
         document.querySelector(this.getAttribute("href")).scrollIntoView({
             behavior : "smooth"
         })
     })
-})
+}) */
+
+
 
 /* ------------Меню бургер ----------- */
 
