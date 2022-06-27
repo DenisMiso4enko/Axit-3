@@ -370,6 +370,13 @@ input {
 
     }
 }
+
+@media (max-width:767px) {
+    .social__list_item img {
+        width: 26px;
+        height: 26px;
+    }
+}
 /*===========Tabs==========*/ 
 
 .section__tabs {
@@ -867,7 +874,12 @@ svg path:hover {
     color: rgba(255, 255, 255, 0.5);
 
 }
-
+@media (max-width: 767px) {
+    .footer__link svg {
+        width: 26px;
+        height: 26px;
+    }
+}
 
 
 
