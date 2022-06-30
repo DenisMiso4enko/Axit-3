@@ -65,7 +65,11 @@ document.querySelectorAll('.menu__list').forEach(n => n.addEventListener('click'
 
 // slider 
 
-/* $('.reviews__card_inner').slick({
-    dots: true,
-    arrows: false,
-}); */
+ 
+if (innerWidth < 767) {
+    $('.reviews__card_inner').slick({
+        dots: true,
+        arrows: false,
+    });  
+    
+}
