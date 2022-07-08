@@ -71,5 +71,4 @@ if (innerWidth < 767) {
         dots: true,
         arrows: false,
     });  
-    
 }

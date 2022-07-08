@@ -84,15 +84,21 @@
                             <h2 class="form_card__title">
                                 Try Your <span>FREE</span> Trial Today
                             </h2>
-                            <form class="form" action="#" method="get" name="trial-fotm">
+                            <form class="form" action="#" method="post" name="trial-form">
                                 <div class="input__inner">
-                                    <input type="text" placeholder="Name" name="username">
+                                    <label for="name">Name</label>
+                                    <input id="name" type="text"  name="username">
+                                    
                                 </div>
                                 <div class="input__inner">
-                                    <input type="email" placeholder="Email" name="useemail">
+                                    <label for="email">Email</label>
+                                    <input id="email" type="email" name="useemail">
+                                    
                                 </div>
                                 <div class="input__inner">
-                                    <input type="password" placeholder="password" name="userpass">
+                                    <label for="password">Password</label>
+                                    <input id="password" type="password" name="userpass">
+                                    
                                 </div>
                         </div>
                         <button form="trial-fotm" class="form__btn" type="button">
@@ -143,11 +149,6 @@
                         <li>
                             <a class="social__list_item" href="#" target="_blank">
                                 <img src="img/instagram_icon.svg" alt="instagram">
-                            </a>
-                        </li>
-                        <li>
-                            <a class="social__list_item" href="#" target="_blank">
-                                <img src="img/facebook_icon.svg" alt="facebook">
                             </a>
                         </li>
                         <li>
@@ -474,10 +475,10 @@
                                 </p>
                             </div>
                             <div class="reviews__card_person_info">
-                                <img class="person__img" src="img/customer2.jpg" alt="">
+                                <img class="person__img" src="img/customer3.jpg" alt="">
                                 <div class="reviews__card_person">
                                     <h3 class="person__title">
-                                        Jaydon Rosser
+                                        Cooper Dorwart
                                     </h3>
                                     <p class="person__work">
                                         Manager
@@ -517,24 +518,32 @@
                 <p class="text">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 </p>
-                <div class="conatct__form_inner">
-                    <form class="" action="#" method="get">
-                        <div class="conatct__form">
-                            <div class="contact__form_input">
-                                <input class="contact__input" type="text" placeholder="Name" name="username">
+                <div class="contact-form__inner">
+                    <form class="form__contactus" action="#" method="post">
+                        <div class="contact--form">
+                            <div class="contact--form__inner">
+                                <label for="name">Name</label>
+                                <input id="name" class="contact-input" type="text">  
                             </div>
-                            <div class="contact__form_input">
-                                <input class="contact__input" type="email" placeholder="Email" name="useremail">
+                            
+                            <div class="contact--form__inner">
+                                <label for="email">Email</label>
+                                <input id="email" class="contact-input" type="email">
                             </div>
-                            <div class="contact__form_input">
-                                <input class="contact__input" type="text" placeholder="Password" name="userpass">
+
+                            <div class="contact--form__inner">
+                                <label for="password">Password</label>
+                                <input id="password" class="contact-input" type="password">
                             </div>
+                            
+                        </div>
+                        <div class="contact-message">
+                            <label for="message">Password</label>
+                            <textarea id="message" name="message"></textarea>
                         </div>
                     </form>
-                    <div class="contact__message">
-                        <textarea name="message" placeholder="Message" id="" cols="55" rows="8"></textarea>
-                    </div>
                 </div>
+
                 <button class="contact__btn" type="button">
                     send Message
                 </button>
@@ -628,45 +637,3 @@
 </body>
 
 </html>
-
-
-<!-- <footer>
-    <div class="container">
-        <div class="footer__content">
-            <div class="footer__link_wrapper">
-                <a class="footer__link" href="#" target="_blank">
-                    <img class="link__img" src="img/facebook_icon.svg" alt="facebook">
-                </a>
-    
-                <a class="footer__link" href="#" target="_blank">
-                    <img class="link__img" src="img/twitter_icon.svg" alt="facebook">
-                </a>
-    
-                <a class="footer__link" href="#" target="_blank">
-                    <img class="link__img" src="img/linkedin_icon.svg" alt="facebook">
-                </a>
-    
-                <a class="footer__link" href="#" target="_blank">
-                    <img class="link__img" src="img/pinterest_icon.svg" alt="facebook">
-                </a>
-    
-                <a class="footer__link" href="#" target="_blank">
-                    <img class="link__img" src="img/instagram_icon.svg" alt="facebook">
-                </a>
-    
-                <a class="footer__link" href="#" target="_blank">
-                    <img class="link__img" src="img/github_icon.svg" alt="facebook">
-                </a>
-    
-                <a class="footer__link" href="#" target="_blank">
-                    <img class="link__img" src="img/rss_icon.svg" alt="facebook">
-                </a>
-            </div>
-            <p class="footer__text">© 2015 Axure Themes</p>
-        </div>
-        
-    </div>
- </footer> -->
-
-
-
