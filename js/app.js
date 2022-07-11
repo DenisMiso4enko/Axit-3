@@ -51,15 +51,18 @@ tabHeaders.forEach(function(item) {
 // Ищем нужные элементы бургер и меню
 const burger = document.querySelector('.burger')
 const menu = document.querySelector('.menu__list')
+const body = document.body
 // Вещаем событие на бургер и добовляем переключатель с классом active
 burger.addEventListener('click', () => {
     burger.classList.toggle('active')
     menu.classList.toggle('active')
+    body.classList.toggle('stopscroll')
 })
 // При нажатии на сылку из меню удаляем класс active
 document.querySelectorAll('.menu__list').forEach(n => n.addEventListener('click', () => {
     burger.classList.remove('active')
     menu.classList.remove('active')
+    body.classList.remove('stopscroll')
 }))
 
 
